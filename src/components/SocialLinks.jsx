@@ -16,14 +16,14 @@ function SocialLinks() {
             child:(
                 <>Github <BsIcon.BsGithub size={30}/></>
             ),
-            href:'https://github.com',
+            href:'https://github.com/PatelVaibhav30',
         },
         {
             id:3,
             child:(
                 <>Mail <BsIcon.BsMailbox2 size={30}/></>
             ),
-            href:'mailto:foo@gmail.com',
+            href:'mailto:patelvaibhav30301@gmail.com',
         },
         {
             id:1,
@@ -41,7 +41,7 @@ function SocialLinks() {
       <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
         <ul>
             {links.map(({id, child, href, style, download})=>(
-            <li key={id} className={'flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 '+''+style}>
+            <li key={id} className={`flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 ${style}`}>
                 <a href={href} download={download} target='_blank' rel="noreferrer" className='flex justify-between items-center w-full text-white'>
                     {child}
                 </a>
