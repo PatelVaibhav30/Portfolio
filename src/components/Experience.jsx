@@ -1,10 +1,10 @@
 import React from 'react'
 import css from '../assets/css.png'
 import github from '../assets/github.png'
-import graphql from '../assets/graphql.png'
+// import graphql from '../assets/graphql.png'
 import html from '../assets/html.png'
 import javascript from '../assets/javascript.png'
-import nextjs from '../assets/nextjs.png'
+// import nextjs from '../assets/nextjs.png'
 import reactImage from '../assets/react.png'
 import tailwind from '../assets/tailwind.png'
 
@@ -41,18 +41,18 @@ function Experience() {
       title: 'Tailwind',
       style:'shadow-purple-500'
     },
-    {
-      id:6,
-      src: nextjs,
-      title: 'Next Js',
-      style:'shadow-white'
-    },
-    {
-      id:7,
-      src: graphql,
-      title: 'GraphQL',
-      style:'shadow-pink-500'
-    },
+    // {
+    //   id:6,
+    //   src: nextjs,
+    //   title: 'Next Js',
+    //   style:'shadow-white'
+    // },
+    // {
+    //   id:7,
+    //   src: graphql,
+    //   title: 'GraphQL',
+    //   style:'shadow-pink-500'
+    // },
     {
       id:8,
       src: github,
