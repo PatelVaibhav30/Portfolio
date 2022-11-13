@@ -4,7 +4,8 @@ import installNode from '../assets/portfolio/installNode.jpg'
 import navbar from '../assets/portfolio/navbar.jpg'
 import reactParallax from '../assets/portfolio/reactParallax.jpg'
 import reactWeather from '../assets/portfolio/reactWeather.jpg'
-import usestate from '../assets/portfolio/usestate.jpg'
+import Todo from '../assets/portfolio/todo.jpg'
+// import usestate from '../assets/portfolio/usestate.jpg'
 
 function Portfolio() {
 
@@ -31,7 +32,10 @@ function Portfolio() {
         },
         {
             id:6,
-            src:usestate
+            src:Todo,
+            demoHref: 'https://unrivaled-selkie-cd1763.netlify.app',
+            codeHref: 'https://github.com/PatelVaibhav30/CRUD-Application-Todo-App-'
+            
         }
     ]
 
@@ -49,12 +53,14 @@ function Portfolio() {
 
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
                 {
-                    portfolios.map(({id, src})=>(
+                    portfolios.map(({id, src, codeHref, demoHref})=>(
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                         <img src={src} alt="" className='rounded-md duration-200 hover:scale-105'/>
-                        <div className=' flex item-center justify-center'>
-                            <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                            <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                        <div className='flex item-center justify-center'>
+                            {/* <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button> */}
+                            <a href={demoHref} target='_blank' rel="noreferrer" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>
+                            <a href={codeHref} target='_blank' rel="noreferrer" className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
+                            {/* <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button> */}
                         </div>
                     </div>
                     ))
