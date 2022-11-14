@@ -7,9 +7,9 @@ function Home() {
     <div name='home' className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 md:h-screen'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
-                <h2 className='text-4xl sm:text-7xl font-bold text-white'> I'm a Student </h2>
+                <h2 className='text-4xl sm:text-7xl px-4 font-bold text-white'>I'm a Student</h2>
                 <p className='text-gray-300 text-bold text-3xl py-4 max-w-md'>
-                    Ready. Steady. Create
+                    Ready. Steady. <span className='font-bold text-red-500'>Build</span>
                 </p>
 
                 <div>

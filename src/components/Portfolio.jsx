@@ -2,10 +2,10 @@ import React from 'react'
 import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
 import installNode from '../assets/portfolio/installNode.jpg'
 import navbar from '../assets/portfolio/navbar.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
+import travel from '../assets/portfolio/travel.jpg'
+import teslaClone from '../assets/portfolio/teslaClone.jpg'
 import Todo from '../assets/portfolio/todo.jpg'
-// import usestate from '../assets/portfolio/usestate.jpg'
+
 
 function Portfolio() {
 
@@ -24,11 +24,15 @@ function Portfolio() {
         },
         {
             id:4,
-            src:reactParallax
+            src:travel,
+            demoHref:'https://deluxe-lollipop-8f3a60.netlify.app',
+            codeHref:'https://github.com/PatelVaibhav30/Travelling-site'
         },
         {
             id:5,
-            src:reactWeather
+            src:teslaClone,
+            demoHref:'https://tesla-clone-471aa.web.app',
+            codeHref:'https://github.com/PatelVaibhav30/Tesla-clone-ReactJs'
         },
         {
             id:6,
@@ -46,7 +50,7 @@ function Portfolio() {
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
-                    <p className='py-6'>Check this out</p>
+                    <p className='py-3'>Check this out</p>
                 </div>
 
                 
