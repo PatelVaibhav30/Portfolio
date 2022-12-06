@@ -10,7 +10,7 @@ function About() {
             {/* <p className='text-xl mt-20'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi quos assumenda modi, accusamus voluptatibus cupiditate eum nisi obcaecati aliquid, magni earum quod itaque deleniti expedita. Fugiat esse sequi adipisci perferendis, tempora magnam assumenda odit facilis labore veritatis maiores id omnis possimus. Obcaecati aliquam impedit adipisci id omnis vel doloremque quidem.</p>
             <br/> */}
             <p className='text-xl'>
-                I'm an university student pursuing B-Tech in Computer Science and Engineering. Since childhood I was facinated by computers and curiosity to learn new technologies. diverting curiosity and eagerness towards willingness to learn them made me a person, who likes to build things using those technologies. 
+                My name is vaibhav patel and I'm an university student pursuing B-Tech in Computer Science and Engineering. Since childhood I was facinated by computers and curious to know more about them. Transforming curiosity and enthusiasm to willingness learn them made me a person, who likes to build things using those technologies. I got grip on technologies and frameworks like HTML, CSS, JS, ReactJs, Flutter. Some of my work is mentioned bellow.
             </p>
         </div>
     </div>

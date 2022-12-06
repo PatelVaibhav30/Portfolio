@@ -1,7 +1,7 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
-import installNode from '../assets/portfolio/installNode.jpg'
-import navbar from '../assets/portfolio/navbar.jpg'
+// import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
+// import installNode from '../assets/portfolio/installNode.jpg'
+// import navbar from '../assets/portfolio/navbar.jpg'
 import travel from '../assets/portfolio/travel.jpg'
 import teslaClone from '../assets/portfolio/teslaClone.jpg'
 import Todo from '../assets/portfolio/todo.jpg'
@@ -10,18 +10,18 @@ import Todo from '../assets/portfolio/todo.jpg'
 function Portfolio() {
 
     const portfolios = [
-        {
-            id:1,
-            src:arrayDestruct
-        },
-        {
-            id:2,
-            src:installNode
-        },
-        {
-            id:3,
-            src:navbar
-        },
+        // {
+        //     id:1,
+        //     src:arrayDestruct
+        // },
+        // {
+        //     id:2,
+        //     src:installNode
+        // },
+        // {
+        //     id:3,
+        //     src:navbar
+        // },
         {
             id:4,
             src:travel,

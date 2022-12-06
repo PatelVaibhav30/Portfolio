@@ -1,12 +1,13 @@
 import React from 'react'
 import css from '../assets/css.png'
 import github from '../assets/github.png'
-// import graphql from '../assets/graphql.png'
+import bootstrap from '../assets/bootstrap.png'
 import html from '../assets/html.png'
 import javascript from '../assets/javascript.png'
-// import nextjs from '../assets/nextjs.png'
+import flutter from '../assets/flutter.png'
 import reactImage from '../assets/react.png'
 import tailwind from '../assets/tailwind.png'
+import materialui from '../assets/materialui.png'
 
 function Experience() {
 
@@ -41,24 +42,30 @@ function Experience() {
       title: 'Tailwind',
       style:'shadow-purple-500'
     },
-    // {
-    //   id:6,
-    //   src: nextjs,
-    //   title: 'Next Js',
-    //   style:'shadow-white'
-    // },
-    // {
-    //   id:7,
-    //   src: graphql,
-    //   title: 'GraphQL',
-    //   style:'shadow-pink-500'
-    // },
+    {
+      id:6,
+      src: flutter,
+      title: 'Flutter',
+      style:'shadow-blue-700'
+    },
+    {
+      id:7,
+      src: bootstrap,
+      title: 'Bootstrap 5',
+      style:'shadow-purple-700'
+    },
     {
       id:8,
       src: github,
       title: 'Github',
       style:'shadow-gray-500'
     },
+    {
+      id:9,
+      src: materialui,
+      title: 'MaterialUI',
+      style:'shadow-blue-400'
+    }
   ]
 
 
